@@ -1,0 +1,56 @@
+inherit_from: .rubocop_todo.yml
+
+# Common configuration.
+# Rails:
+#   Enabled: true
+
+# Rails/HasAndBelongsToMany:
+#   Enabled: false
+
+# Rails/HasManyOrHasOneDependent:
+#   Enabled: false
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/BlockLength:
+  Max: 50
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/LineLength:
+  Max: 130
+  AllowURI: true
+
+Metrics/ParameterLists:
+  Max: 6
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/Documentation:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: false
+
+Style/RedundantBegin:
+  Enabled: false
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/AsciiComments:
+  Enabled: false
+
+# Rails/InverseOf:
+#   Enabled: false
