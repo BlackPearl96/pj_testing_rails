@@ -136,7 +136,7 @@ GEM
     parser (2.6.5.0)
       ast (~> 2.4.0)
     public_suffix (4.0.1)
-    puma (3.12.1)
+    puma (3.12.3)
     rack (2.0.7)
     rack-contrib (2.1.0)
       rack (~> 2.0)
@@ -258,7 +258,7 @@ DEPENDENCIES
   meta_request
   mysql2 (>= 0.4.4, < 0.6.0)
   overcommit
-  puma (~> 3.11)
+  puma (~> 3.12)
   rack-mini-profiler
   rails (~> 5.2.3)
   rails-erd
